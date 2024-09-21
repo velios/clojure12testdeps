@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="61c397cf-dfba-4d2b-a640-7b913941f8b5" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DepsProjectDetails">
+    <option name="cachedModuleDetails">
+      <map>
+        <entry key="$PROJECT_DIR$/deps.edn">
+          <value>
+            <ModuleDetails>
+              <option name="details" value="{:basis {:classpath {&quot;/Users/flocktory/.m2/repository/org/clojure/spec.alpha/0.5.238/spec.alpha-0.5.238.jar&quot; {:lib-name org.clojure/spec.alpha}, &quot;/Users/flocktory/.m2/repository/org/clojure/clojure/1.12.0/clojure-1.12.0.jar&quot; {:lib-name org.clojure/clojure}, &quot;/Users/flocktory/Code/2_my_sandbox/clojure12testdeps/test&quot; {:path-key :extra-paths}, &quot;/Users/flocktory/Code/2_my_sandbox/clojure12testdeps/src&quot; {:path-key :paths}, &quot;/Users/flocktory/.m2/repository/org/clojure/test.check/1.1.1/test.check-1.1.1.jar&quot; {:lib-name org.clojure/test.check}, &quot;/Users/flocktory/.m2/repository/org/clojure/java.classpath/1.0.0/java.classpath-1.0.0.jar&quot; {:lib-name org.clojure/java.classpath}, &quot;/Users/flocktory/.m2/repository/org/clojure/tools.reader/1.3.6/tools.reader-1.3.6.jar&quot; {:lib-name org.clojure/tools.reader}, &quot;/Users/flocktory/.m2/repository/org/clojure/core.specs.alpha/0.4.74/core.specs.alpha-0.4.74.jar&quot; {:lib-name org.clojure/core.specs.alpha}, &quot;/Users/flocktory/Code/2_my_sandbox/clojure12testdeps/resources&quot; {:path-key :paths}, &quot;/Users/flocktory/.m2/repository/org/clojure/tools.namespace/1.3.0/tools.namespace-1.3.0.jar&quot; {:lib-name org.clojure/tools.namespace}, &quot;/Users/flocktory/.gitlibs/libs/io.github.cognitect-labs/test-runner/dfb30dd6605cb6c0efc275e1df1736f6e90d4d73/src&quot; {:lib-name io.github.cognitect-labs/test-runner}, &quot;/Users/flocktory/.m2/repository/org/clojure/tools.cli/1.0.206/tools.cli-1.0.206.jar&quot; {:lib-name org.clojure/tools.cli}}, :basis-config {:aliases [:test]}, :all-aliases #{:run-x :new :storm :run-m :build :test :deps}, :mvn/repos {&quot;central&quot; {:url &quot;https://repo1.maven.org/maven2/&quot;}, &quot;clojars&quot; {:url &quot;https://repo.clojars.org/&quot;}}, :argmap {:extra-paths [&quot;/Users/flocktory/Code/2_my_sandbox/clojure12testdeps/test&quot;], :extra-deps {org.clojure/test.check {:mvn/version &quot;1.1.1&quot;}, io.github.cognitect-labs/test-runner {:git/tag &quot;v0.5.1&quot;, :git/sha &quot;dfb30dd&quot;}}}, :paths [&quot;/Users/flocktory/Code/2_my_sandbox/clojure12testdeps/src&quot; &quot;/Users/flocktory/Code/2_my_sandbox/clojure12testdeps/resources&quot;], :classpath-roots [&quot;/Users/flocktory/Code/2_my_sandbox/clojure12testdeps/test&quot; &quot;/Users/flocktory/Code/2_my_sandbox/clojure12testdeps/src&quot; &quot;/Users/flocktory/Code/2_my_sandbox/clojure12testdeps/resources&quot; &quot;/Users/flocktory/.gitlibs/libs/io.github.cognitect-labs/test-runner/dfb30dd6605cb6c0efc275e1df1736f6e90d4d73/src&quot; &quot;/Users/flocktory/.m2/repository/org/clojure/clojure/1.12.0/clojure-1.12.0.jar&quot; &quot;/Users/flocktory/.m2/repository/org/clojure/test.check/1.1.1/test.check-1.1.1.jar&quot; &quot;/Users/flocktory/.m2/repository/org/clojure/tools.cli/1.0.206/tools.cli-1.0.206.jar&quot; &quot;/Users/flocktory/.m2/repository/org/clojure/tools.namespace/1.3.0/tools.namespace-1.3.0.jar&quot; &quot;/Users/flocktory/.m2/repository/org/clojure/core.specs.alpha/0.4.74/core.specs.alpha-0.4.74.jar&quot; &quot;/Users/flocktory/.m2/repository/org/clojure/spec.alpha/0.5.238/spec.alpha-0.5.238.jar&quot; &quot;/Users/flocktory/.m2/repository/org/clojure/java.classpath/1.0.0/java.classpath-1.0.0.jar&quot; &quot;/Users/flocktory/.m2/repository/org/clojure/tools.reader/1.3.6/tools.reader-1.3.6.jar&quot;], :config-paths [&quot;/Users/flocktory/.deps.clj/1.11.1.1435/ClojureTools/deps.edn&quot; &quot;/Users/flocktory/.clojure/deps.edn&quot; &quot;/Users/flocktory/Code/2_my_sandbox/clojure12testdeps/deps.edn&quot;], :alias-scopes {:system #{:test :deps}, :user #{:new :storm}, :project #{:run-x :run-m :build :test}}, :git-deps #{io.github.cognitect-labs/test-runner}, :alias-types {:deps :tool, :new :exec, :run-m :main, :run-x :exec, :build :tool}, :libs {org.clojure/clojure {:mvn/version &quot;1.12.0&quot;, :deps/manifest :mvn, :parents #{[]}, :paths [&quot;/Users/flocktory/.m2/repository/org/clojure/clojure/1.12.0/clojure-1.12.0.jar&quot;]}, org.clojure/core.specs.alpha {:mvn/version &quot;0.4.74&quot;, :deps/manifest :mvn, :dependents [org.clojure/clojure], :parents #{[org.clojure/clojure]}, :paths [&quot;/Users/flocktory/.m2/repository/org/clojure/core.specs.alpha/0.4.74/core.specs.alpha-0.4.74.jar&quot;]}, org.clojure/spec.alpha {:mvn/version &quot;0.5.238&quot;, :deps/manifest :mvn, :dependents [org.clojure/clojure], :parents #{[org.clojure/clojure]}, :paths [&quot;/Users/flocktory/.m2/repository/org/clojure/spec.alpha/0.5.238/spec.alpha-0.5.238.jar&quot;]}, org.clojure/tools.cli {:mvn/version &quot;1.0.206&quot;, :deps/manifest :mvn, :dependents [io.github.cognitect-labs/test-runner], :parents #{[io.github.cognitect-labs/test-runner]}, :paths [&quot;/Users/flocktory/.m2/repository/org/clojure/tools.cli/1.0.206/tools.cli-1.0.206.jar&quot;]}, io.github.cognitect-labs/test-runner {:git/tag &quot;v0.5.1&quot;, :git/sha &quot;dfb30dd6605cb6c0efc275e1df1736f6e90d4d73&quot;, :git/url &quot;https://github.com/cognitect-labs/test-runner.git&quot;, :deps/manifest :deps, :deps/root &quot;/Users/flocktory/.gitlibs/libs/io.github.cognitect-labs/test-runner/dfb30dd6605cb6c0efc275e1df1736f6e90d4d73&quot;, :parents #{[]}, :paths [&quot;/Users/flocktory/.gitlibs/libs/io.github.cognitect-labs/test-runner/dfb30dd6605cb6c0efc275e1df1736f6e90d4d73/src&quot;]}, org.clojure/tools.namespace {:mvn/version &quot;1.3.0&quot;, :deps/manifest :mvn, :dependents [io.github.cognitect-labs/test-runner], :parents #{[io.github.cognitect-labs/test-runner]}, :paths [&quot;/Users/flocktory/.m2/repository/org/clojure/tools.namespace/1.3.0/tools.namespace-1.3.0.jar&quot;]}, org.clojure/java.classpath {:mvn/version &quot;1.0.0&quot;, :deps/manifest :mvn, :dependents [org.clojure/tools.namespace], :parents #{[io.github.cognitect-labs/test-runner org.clojure/tools.namespace]}, :paths [&quot;/Users/flocktory/.m2/repository/org/clojure/java.classpath/1.0.0/java.classpath-1.0.0.jar&quot;]}, org.clojure/tools.reader {:mvn/version &quot;1.3.6&quot;, :deps/manifest :mvn, :dependents [org.clojure/tools.namespace], :parents #{[io.github.cognitect-labs/test-runner org.clojure/tools.namespace]}, :paths [&quot;/Users/flocktory/.m2/repository/org/clojure/tools.reader/1.3.6/tools.reader-1.3.6.jar&quot;]}, org.clojure/test.check {:mvn/version &quot;1.1.1&quot;, :deps/manifest :mvn, :parents #{[]}, :paths [&quot;/Users/flocktory/.m2/repository/org/clojure/test.check/1.1.1/test.check-1.1.1.jar&quot;]}}, :aliases {:deps {:replace-paths [], :replace-deps {org.clojure/tools.deps.cli {:mvn/version &quot;0.9.49&quot;}}, :ns-default clojure.tools.deps.cli.api, :ns-aliases {help clojure.tools.deps.cli.help}}, :test {:extra-paths [&quot;/Users/flocktory/Code/2_my_sandbox/clojure12testdeps/test&quot;], :extra-deps {org.clojure/test.check {:mvn/version &quot;1.1.1&quot;}, io.github.cognitect-labs/test-runner {:git/tag &quot;v0.5.1&quot;, :git/sha &quot;dfb30dd&quot;}}}, :storm {:classpath-overrides {org.clojure/clojure nil}, :extra-deps {com.github.flow-storm/clojure {:mvn/version &quot;1.12.0-alpha4_14&quot;}, com.github.flow-storm/flow-storm-dbg {:mvn/version &quot;3.12.0&quot;}}, :jvm-opts [&quot;-Dclojure.storm.instrumentEnable=true&quot;]}, :new {:extra-deps {io.github.seancorfield/deps-new {:git/tag &quot;v0.4.12&quot;, :git/sha &quot;37aa288&quot;}, io.github.flocktory/cpo-templates {:git/url &quot;git@github.com:flocktory/cpo-templates.git&quot;, :git/tag &quot;0.3.0&quot;, :git/sha &quot;d523463&quot;}}, :exec-fn org.corfield.new/create, :exec-args {:template cpo-templates/base}}, :run-m {:main-opts [&quot;-m&quot; &quot;velios.clojure12testdeps&quot;]}, :run-x {:ns-default velios.clojure12testdeps, :exec-fn greet, :exec-args {:name &quot;Clojure&quot;}}, :build {:deps {io.github.clojure/tools.build {:mvn/version &quot;0.10.5&quot;}}, :ns-default build}}, :deps {org.clojure/clojure {:mvn/version &quot;1.12.0&quot;}}}}" />
+              <option name="hash" value="7a9b49705abd4bf3a2550a78601cc57e" />
+            </ModuleDetails>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2mNJUMnJUCmDBCn9WMnDCEzDQwc" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="bbPath" value="" />
+      <setting name="parameters" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <setting name="workingDir" value="" />
+      <setting name="focusEditor" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="replPortFileType" value="STANDARD" />
+      <setting name="customPortFile" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <setting name="useHeartbeat" value="true" />
+      <setting name="focusEditor" value="false" />
+      <setting name="urlFile" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="repl" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <option name="configVersion" value="1" />
+      <option name="displayName" value="repl" />
+      <option name="execution" value="DEPS" />
+      <module name="clojure12testdeps" />
+      <option name="options" />
+      <option name="profiles" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-9b16c6e2" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61c397cf-dfba-4d2b-a640-7b913941f8b5" name="Changes" comment="" />
+      <created>1726911115886</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726911115886</updated>
+      <workItem from="1726911117655" duration="167000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
